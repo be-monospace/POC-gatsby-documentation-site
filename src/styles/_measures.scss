@@ -1,0 +1,83 @@
+/** ---- MARGINS ----- */
+$margin-3xs: 2px;
+$margin-xxs: 4px;
+$margin-xs: 8px;
+$margin-s: 16px;
+$margin-m: 24px;
+$margin-l: 32px;
+$margin-xl: 40px;
+$margin-xxl: 48px;
+$margin-3xl: 56px;
+$margin-4xl: 64px;
+$margin-5xl: 72px;
+$margin-6xl: 80px;
+
+/** ---- PADDINGS ----- */
+$padding-3xs: 2px;
+$padding-xxs: 4px;
+$padding-xs: 8px;
+$padding-s: 16px;
+$padding-m: 24px;
+$padding-l: 32px;
+$padding-xl: 40px;
+$padding-xxl: 48px;
+$padding-3xl: 56px;
+$padding-4xl: 64px;
+$padding-5xl: 72px;
+$padding-6xl: 80px;
+
+/** ---- BORDER-RADIUS ----- */
+$border-radius-xxs: 2px;
+$border-radius-xs: 4px;
+$border-radius-s: 6px;
+$border-radius-m: 13px;
+$border-radius-l: 16px;
+$border-radius-max: 50px;
+
+/** ---- GAPS ----- */
+$gap-xxs: 4px;
+$gap-xs: 8px;
+$gap-s: 16px;
+$gap-m: 24px;
+$gap-l: 32px;
+$gap-xl: 40px;
+
+/** ---- RELATIVE ----- */
+.width {
+    /* One Column */
+    &__100 {
+      width: 100%;
+    }
+  
+    /* Two Columns */
+    &__50 {
+      width: 50%;
+    }
+  
+    /* Three Columns */
+    &__33 {
+      width: 33%;
+    }
+  
+    /* Four Columns */
+    &__25 {
+      width: 25%;
+    }
+  
+    /* Five Columns */
+    &__20 {
+      width: 20%;
+    }
+  
+    /* Six Columns */
+    &__16 {
+      width: 16%;
+    }
+  }
+  
+  .height {
+    &__100 {
+      height: 100%;
+    }
+  }
+  

@@ -1,0 +1,39 @@
+$colors: (
+  dark: (
+    background-black: #141618,
+    background-01: #191C1E,
+    background-02: #232629,
+    background-03: #363A3E,
+    background-04: #4E5358,
+  ),
+  light: (
+    background-white: #FFFFFF,
+    background-01: #F9F9FA,
+    background-02: #F2F4F5,
+    background-03: #DCE0E4,
+    background-primary: #EDF5FF,
+    background-success: #D3FEDE,
+    background-critical: #FFF0F0,
+    background-warning: #FFF2E8,
+    background-upgrade: #F5F2FD,
+  ),
+  semantic: (
+    primary: #4589FF,
+    success: #00A454,
+    critical: #D23031,
+    warning: #E36B00,
+    upgrade: #9F78ED,
+  ),
+);
+
+@each $color, $tones in $colors {
+    .background-color__#{'' + $color} {
+      background-color: map-get($tones, 'base');
+  
+      @each $tone, $colorTone in $tones {
+        &__#{'' + $tone} {
+          background-color: $colorTone;
+        }
+      }
+    }
+  }
